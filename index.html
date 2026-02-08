@@ -1,110 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Mark-X</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <a class="brand" href="index.html"><span class="dot">.</span>Mark-<span class="x-mark">X</span></a>
+      <nav class="navbar">
+        <a class="brand" href="index.html"
+          ><span class="dot">.</span>Mark-<span class="x-mark">X</span></a
+        >
 
-            <div class="search">
-                <input type="text" placeholder="&#8981; search items....">
-                <button type="button">Search</button>
-            </div>
-            <ul class="ul">
-                <li><a class="links active" href="index.html">Home</a></li>
-                <li><a class="links" href="about.html">About</a></li>
-                <li><a class="links" href="portfolio.html">Portfolio</a></li>
-                <li><a class="links" href="blog.html">Blog</a></li>
-                <li><a class="links" href="services.html">Services</a></li>
-                <li><a class="links" href="contact.html">Contact</a></li>
-            </ul>
+        <ul class="ul">
+          <li><a class="links active" href="index.html">Home</a></li>
+          <li><a class="links" href="about.html">About</a></li>
+          <li><a class="links" href="portfolio.html">Portfolio</a></li>
+          <li><a class="links" href="blog.html">Blog</a></li>
+          <li><a class="links" href="services.html">Services</a></li>
+          <li><a class="links" href="contact.html">Contact</a></li>
+        </ul>
 
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
     </header>
 
-
     <main>
-        <section class="welcome-image">
-            <div class="hero-text">
-                <h2>Welcome to Mark-X Technology inc.</h2>
-                <p>Creative Solutions & Digital Design</p>
-                <a href="portfolio.html" class="btn-main">View My Work</a>
+      <section class="welcome-image">
+        <div class="hero-text">
+          <h2>Welcome to Mark-X Technology inc.</h2>
+          <p>Creative Solutions & Digital Design</p>
+          <a href="portfolio.html" class="btn-main">View My Work</a>
+        </div>
+      </section>
+
+      <!-- Portfolio Card Grid -->
+      <section id="portfolio" class="portfolio-container">
+        <h2 class="section-title">Latest Projects</h2>
+
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-img">
+              <a href="portfolio.html"
+                ><img src="img/Brand Identity.jpg" alt="Project One"
+              /></a>
             </div>
-        </section>
-
-        <!-- Portfolio Card Grid -->
-        <section id="portfolio" class="portfolio-container">
-            <h2 class="section-title">Latest Projects</h2>
-            
-            <div class="card-grid">
-                <div class="card">
-                    <div class="card-img">
-                        <a href="portfolio.html"><img src="img/Brand Identity.jpg" alt="Project One"></a>
-                    </div>
-                    <div class="card-content">
-                        <h3>Brand Identity</h3>
-                        <p>Modern visual styling for tech startups.</p>
-                        <a href="portfolio.html" class="card-link">Read More →</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <a href="portfolio.html"><img src="img/Web Development.jpg" alt="Project Two"></a>
-                    </div>
-                    <div class="card-content">
-                        <h3>Web Development</h3>
-                        <p>High-performance responsive websites.</p>
-                        <a href="portfolio.html" class="card-link">Read More →</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <a href="portfolio.html"><img src="img/UIUX Design.jpg" alt="Project Three"></a>
-                    </div>
-                    <div class="card-content">
-                        <h3>UI/UX Design</h3>
-                        <p>User-centric mobile application interfaces.</p>
-                        <a href="portfolio.html" class="card-link">Read More →</a>
-                    </div>
-                </div>
+            <div class="card-content">
+              <h3>Brand Identity</h3>
+              <p>Modern visual styling for tech startups.</p>
+              <a href="portfolio.html" class="card-link">Read More →</a>
             </div>
-        </section>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <a href="portfolio.html"
+                ><img src="img/Web Development.jpg" alt="Project Two"
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>Web Development</h3>
+              <p>High-performance responsive websites.</p>
+              <a href="portfolio.html" class="card-link">Read More →</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <a href="portfolio.html"
+                ><img src="img/UIUX Design.jpg" alt="Project Three"
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>UI/UX Design</h3>
+              <p>User-centric mobile application interfaces.</p>
+              <a href="portfolio.html" class="card-link">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="small-footer">
-        <div class="footer-main">
-            <a class="brand" href="#"><span>.</span>Mark-<span>X</span></a>
-            
-            <div class="footer-contact">
-                <a href="mailto:yourgmail@gmail.com" class="footer-email">asamoahbismark39@gmail.com</a>
-                <div class="footer-socials">
-                    <a href="www.facebook.com">Facebook</a>
-                    <a href="www.x.com">Twiter</a>
-                    <a href="www.linkedin.com">LinkedIn</a>
-                </div>
-            </div>
-        </div>
+      <div class="footer-main">
+        <a class="brand" href="#"><span>.</span>Mark-<span>X</span></a>
 
-        <div class="footer-copyright">
-            <p>&copy; 2026 .Mark-X. All rights reserved.</p>
+        <div class="footer-contact">
+          <a href="mailto:yourgmail@gmail.com" class="footer-email"
+            >asamoahbismark39@gmail.com</a
+          >
+          <div class="footer-socials">
+            <a href="www.facebook.com">Facebook</a>
+            <a href="www.x.com">Twiter</a>
+            <a href="www.linkedin.com">LinkedIn</a>
+          </div>
         </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 .Mark-X. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
