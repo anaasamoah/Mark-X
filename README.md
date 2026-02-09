@@ -1,14 +1,19 @@
-# A DEMO PORTFOLIO WEBSITE FOR THE FOUNDATIONS OF MULTIMEDIA AND WEB DESIGN PROJECT WORK.
+# Web Design Project: Demo Portfolio
 
-## Open https://anaasamoah.github.io/Mark-X/ with your browser to see the result.
+## Course: Foundations of Multimedia & Web Design (BIT Weekend L200)
 
-#### BY: ASAMOAH BISMARK OBUOBISA  
+## Responsive Layout: Fully optimized for mobile, tablet, and desktop views.
 
-#### ID: 2425404521
 
-#### TITLE: FOUNDATIONS OF MULTIMEDIA
+## You can view the completed responsive portfolio website by clicking the link below: 
 
-#### SESSION: BIT WEEKEND L200
+###### https://anaasamoah.github.io/Mark-X/
+
+### Student Information
+
+#### Name: Asamoah Bismark Obuobisa
+
+#### Student ID: 2425404521
 
 #### LECTURER: DR. EBENEZER AKAGLO
 
