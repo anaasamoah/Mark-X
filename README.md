@@ -1,6 +1,6 @@
 A DEMO PORTFOLIO WEBSITE FOR THE FOUNDATIONS OF MULTIMEDIA AND WEB DESIGN PROJECT WORK.
 
-Open http://localhost:3000 with your browser to see the result.
+Open https://anaasamoah.github.io/Mark-X/ with your browser to see the result.
 
 BY: ASAMOAH BISMARK OBUOBISA  
 
